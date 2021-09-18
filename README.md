@@ -11,7 +11,7 @@ captured Ethernet frames and status messages.
 ```sh
 # Conan is only needed to build the sample app, it's not needed for the library itself
 pip install conan
-conan remote add public-conan https://api.bintray.com/conan/bincrafters/public-conan
+conan remote add conancenter https://center.conan.io
 
 conan install conanfile.txt
 # or if building Debug
